@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheretance", "Inharetance\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Figures", "Figures\Figures.vcxproj", "{599C0D50-FE62-4015-BC52-9EF10969F64C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{599C0D50-FE62-4015-BC52-9EF10969F64C}.Release|x64.Build.0 = Release|x64
 		{599C0D50-FE62-4015-BC52-9EF10969F64C}.Release|x86.ActiveCfg = Release|Win32
 		{599C0D50-FE62-4015-BC52-9EF10969F64C}.Release|x86.Build.0 = Release|Win32
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Debug|x64.ActiveCfg = Debug|x64
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Debug|x64.Build.0 = Debug|x64
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Debug|x86.ActiveCfg = Debug|Win32
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Debug|x86.Build.0 = Debug|Win32
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Release|x64.ActiveCfg = Release|x64
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Release|x64.Build.0 = Release|x64
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Release|x86.ActiveCfg = Release|Win32
+		{0ED50D4A-D91D-497D-A2C5-E4F8B113892C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
