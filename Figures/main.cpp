@@ -1,5 +1,7 @@
 #include<iostream>
+#include<algorithm>
 #include<cmath>
+#include<ctime>
 
 using namespace std;
 
@@ -194,6 +196,9 @@ void main()
 {
 
 	setlocale(LC_ALL, " ");
+	
+	srand(time(nullptr));
+
 #ifdef SINGLE_CHECK
 	Square sqr1(5);
 	sqr1.get_data();
@@ -208,14 +213,16 @@ void main()
 	tri1.get_data();
 	tri1.print();
 #endif // SINGLE_CHECK
-	
-	Line* group[] =
+
+	Line* group [] =
 	{
 		new Square(7),
 		new Rectangle(14,7),
 		new Circle(7),
 		new Triangle(7)
 	};
+
+	random_shuffle(begin(group),end(group));
 
 	for (int i = 0; i < sizeof(group) / sizeof(group[0]);i++)
 	{
@@ -228,9 +235,8 @@ void main()
 		cout << Delimeter << endl;
 		delete group[i];
 	}
-
-
-
-
-
 }
+
+
+
+
