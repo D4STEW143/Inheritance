@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 #include<algorithm>
 #include<cmath>
 #include<ctime>
@@ -87,7 +87,7 @@ public:
 
 class Rectangle : public Square
 {
-	//Накосячил с ориентацией осей х и у, поэтому в примерах они поменяны местами.
+	//РќР°РєРѕСЃСЏС‡РёР» СЃ РѕСЂРёРµРЅС‚Р°С†РёРµР№ РѕСЃРµР№ С… Рё Сѓ, РїРѕСЌС‚РѕРјСѓ РІ РїСЂРёРјРµСЂР°С… РѕРЅРё РїРѕРјРµРЅСЏРЅС‹ РјРµСЃС‚Р°РјРё.
 public:
 	Rectangle(int side_x, int side_y) :Square(side_x)
 	{
